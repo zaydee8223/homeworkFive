@@ -1,0 +1,138 @@
+#app {
+  padding: 40px;
+}
+#app h1, #app h2, #app h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+#app h2 {
+  width: 600px;
+  margin: 0 auto;
+}
+#app .btn-container {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+#app .btn-container .genreBtns {
+  width: 150px;
+  height: 50px;
+  margin-right: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: #9678b6;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.albums {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.albums .showAlbums {
+  width: calc(20% - 30px);
+  height: 255px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.albums .showAlbums .albumImg {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.albums .showAlbums .albumImg img {
+  width: 150px;
+  height: 150px;
+}
+.albums .showAlbums p {
+  text-align: center;
+  width: 340px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.genreAlbums {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.genreAlbums .showAlbums {
+  width: calc(20% - 30px);
+  height: 255px;
+  margin-bottom: 30px;
+}
+.genreAlbums .showAlbums .albumImg {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: orange;
+}
+.genreAlbums .showAlbums .albumImg img {
+  width: 150px;
+  height: 150px;
+}
+.genreAlbums .showAlbums p {
+  text-align: center;
+  width: 340px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.inputInfo {
+  width: 500px;
+  margin: 0 auto;
+}
+.inputInfo .inputHeader {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.inputInfo label, .inputInfo input {
+  display: block;
+}
+.inputInfo label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.inputInfo input {
+  margin-bottom: 40px;
+  height: 40px;
+  width: 500px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.inputInfo select {
+  margin-bottom: 40px;
+}
+.inputInfo #submit {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #9678b6;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Album Collection - Firestore</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+     <div id="app">
+        <h1>Store Your Album Collection with Firestore!</h1>
+        <h2>Enter album information, and let Firebase Firestore save it! Use the buttons below to view albums by genre.</h2>        
+    
+        <!-- input album info -->
+     <div class="inputInfo">
+        <p class="inputHeader">Album Information</p>
+             <label for="albName">Album Name</label>
+            <input type="text" id="albName" placeholder="Album Name...">
+ 
+            <label for="artName">Artist Name:</label>
+            <input type="text" id="artName" placeholder="Artist Name...">
+ 
+ 
+            <label for="imageURL">Album Image URL:</label>
+            <input type="text" id="imageURL" placeholder="Album Image URL...">
+ 
+            <label for="genre">Album Genre:</label>
+            <select id="genre">
+                <option value=""></option>
+             <option value="K-Pop">K-Pop</option>
+             <option value="Reggateon">Reggaeton</option>
+             <option value="R&B">R&B</option>
+           </select>
+            <input type="submit" id="submit" value="Add Album">
+      </div>
+     
+      <!-- all albums displayed -->
+      <div class="albums"></div>
+<hr>
+<br>
+
+<h3>Click the buttons to show albums from genre:</h3>
+     <div class="btn-container">
+        <input type="submit" class ="genreBtns" id="kpop" value="K-Pop">
+         <input type="submit" class ="genreBtns" id="reggaeton" value="Reggaeton">
+         <input type="submit" class ="genreBtns" id="randb" value="R&B">
+         </div>
+     </div>
+
+     <!-- albums based on a genre -->
+    <div class="genreAlbums"></div>
+        
+<script src="/app/app.js"></script>
+</body>
+</html>

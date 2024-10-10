@@ -1,7 +1,7 @@
 # Homework 5
 ## Store Albums Using Firestore
 
-Web4 Link: 
+Link: https://n423-homework-five.web.app/ 
 
 This week, our assignment was to create a Firebase project and utilize our Firestore database. We were create a collection called Albums, and add albums with 3 specific genres to it. The page should load all albums in the database, and have a way to get albums from a specific genre.
 The main goals of this assignment were: 

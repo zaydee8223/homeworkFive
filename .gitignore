@@ -12,3 +12,10 @@
 # project
 /css/styles.css.map
 .prepros
+
+#firebase related files
+.firebase/
+.firebaserc
+
+#build output
+dist/
